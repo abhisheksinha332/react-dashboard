@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+.left{
+    /* // text-align: left; */
+     justify-content: start;
+     width: 100%;
+     color: white;
+ }
+ .content{
+     display: flex;
+     /* width: 100%; */
+ }
+ .right{
+     text-align: right;
+     justify-content: flex-end;
+     width: 100%;
+     color:white;
+ }
+body {
+  font-family: "Roboto", sans-serif;
+  background:#d7bd94;
+}
+
+.circle-wrap {
+  margin: 0 auto 10px auto;
+  width: 100px;
+  height: 100px;
+  background: #7c7c7c;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 100px, 100px, 50px);
+  background-color: #9e00b1;
+}
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 50px, 100px, 0px);
+  background-color: #9e00b1;
+}
+
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(63deg);
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(63deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgb(3, 3, 3);
+  line-height: 80px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.7em;
+}
