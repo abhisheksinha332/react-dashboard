@@ -6,15 +6,17 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import './Styles.css'
 const Shortlisted = () => {
     return (
-        <Card variant="outlined" className="body">
-            <div className="content">
+        <Card className="body">
+            <div className="content1">
             <div className="left">
+              <div className="title">
                 Total Applications
-                <Typography variant="h4">
+                </div>
+                <Typography variant="h4" className="text">
                     7956
                 </Typography>
-                <Typography variant="h6">
-                    <TrendingUpIcon/> 2.3%
+                <Typography variant="h6" className="grow2" >
+                    <TrendingUpIcon/> +06%
                 </Typography>
             </div>
             <div className="right">
@@ -23,16 +25,16 @@ const Shortlisted = () => {
                 <div className="circle-wrap">
   <div className="circle">
     
-    <div className="mask full">
-      <div className="fill"></div>
+    <div className="mask2 full2">
+      <div className="fill2"></div>
     </div>
    
-    <div className="mask half">
-      <div className="fill"></div>
+    <div className="mask2 half2">
+      <div className="fill2"></div>
     </div>
     
     <div className="inside-circle">
-      70%
+      60%
     </div>
     
   </div>

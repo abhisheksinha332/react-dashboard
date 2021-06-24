@@ -6,7 +6,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import './Styles.css'
 const TotalApplication = () => {
     return (
-        <Card variant="outlined">
+        <Card variant="outlined" className="body">
             <div className="content">
             <div className="left" >
               <div className="title">

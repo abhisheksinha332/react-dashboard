@@ -3,14 +3,18 @@
 
 .left{
     /* // text-align: left; */
-     justify-content: start;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
      width: 100%;
      color: white;
  }
  .title{
-   margin-top: 10px;
+   margin-top: 30px;
+   padding-top: 10px;
    margin-left: 10px;
    color: white;
+   font-weight:550;
    
  }
  /* .text{
@@ -20,6 +24,8 @@
  } */
  .content{
      display: flex;
+     background-color: black;
+     border-radius: 10px;
      /* width: 100%; */
  }
  .right{
@@ -27,12 +33,14 @@
      justify-content: flex-end;
      width: 100%;
      color:white;
+     margin: 10px 10px ;
  }
  .grow{
    color: violet;
-   padding-top: 2px;
+   padding-top: 10px;
    padding-left: 10px;
    margin-top: 10px;
+   font-size: 14px;
  }
  .text{
      color: white;
@@ -41,16 +49,16 @@
      margin-left: 10px;
      padding-left: 10px;
  }
-body {
-  font-family: "Roboto", sans-serif;
-  background:#d7bd94;
+
+.body{
+  background-color: red;
 }
 
 .circle-wrap {
   margin: 18px auto 10px auto;
   width: 100px;
   height: 100px;
-  background: #7c7c7c;
+  background: rgba(241, 241, 241,0.3);
   border-radius: 50%;
 }
 

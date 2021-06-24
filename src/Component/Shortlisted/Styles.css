@@ -3,12 +3,28 @@
 
 .left{
     /* // text-align: left; */
-     justify-content: start;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
      width: 100%;
      color: white;
  }
- .content{
+ .title{
+   margin-top: 30px;
+   padding-top: 14px;
+   margin-left: 10px;
+   color: white;
+   font-weight:550;
+   
+ }
+ /* .text{
+   margin-top: 10px;
+   color: white;
+
+ } */
+ .content1{
      display: flex;
+     background-color: rgb(0, 58, 248);
      /* width: 100%; */
  }
  .right{
@@ -16,45 +32,60 @@
      justify-content: flex-end;
      width: 100%;
      color:white;
+     margin: 10px 10px ;
+ }
+ .grow2{
+   color: rgb(255, 255, 255);
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-top: 10px;
+   font-size: 14px;
+ }
+ .text{
+     color: white;
+     margin-top: 18px;
+     padding-top: 18px;
+     margin-left: 10px;
+     padding-left: 10px;
  }
 body {
   font-family: "Roboto", sans-serif;
-  background:#d7bd94;
+  
 }
 
 .circle-wrap {
-  margin: 0 auto 10px auto;
+  margin: 18px auto 10px auto;
   width: 100px;
   height: 100px;
-  background: #7c7c7c;
+  background: #46e3ff;
   border-radius: 50%;
 }
 
-.circle-wrap .circle .mask,
-.circle-wrap .circle .fill {
+.circle-wrap .circle .mask2,
+.circle-wrap .circle .fill2 {
   width: 100px;
   height: 100px;
   position: absolute;
   border-radius: 50%;
 }
 
-.circle-wrap .circle .mask {
+.circle-wrap .circle .mask2 {
   clip: rect(0px, 100px, 100px, 50px);
-  background-color: #9e00b1;
+  background-color: #ffffff;
 }
 
-.circle-wrap .circle .mask .fill {
+.circle-wrap .circle .mask2 .fill2 {
   clip: rect(0px, 50px, 100px, 0px);
-  background-color: #9e00b1;
+  background-color: #ffffff;
 }
 
-.circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
+.circle-wrap .circle .mask2.full2,
+.circle-wrap .circle .fill2 {
   animation: fill ease-in-out 3s;
   transform: rotate(63deg);
 }
 
-@keyframes fill {
+@keyframes fill2 {
   0% {
     transform: rotate(0deg);
   }
@@ -67,7 +98,7 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: rgb(3, 3, 3);
+  background: rgb(79, 176, 255);
   line-height: 80px;
   text-align: center;
   margin-top: 10px;
@@ -75,5 +106,5 @@ body {
   position: absolute;
   z-index: 100;
   font-weight: 700;
-  font-size: 1.7em;
+  font-size: 1.1em;
 }

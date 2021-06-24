@@ -67,7 +67,9 @@
         grid-template-areas: "nav" "main";
     }
 } */
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
 .sidebar{
     margin-right: 10px;

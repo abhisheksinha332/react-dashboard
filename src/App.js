@@ -5,8 +5,10 @@ import Sidebar from './Component/Sidebar/Sidebar'
 import TotalApplication from './Component/Total1/TotalApplication'
 import Shortlisted from './Component/Shortlisted/Shortlisted'
 import Total from './Component/Total2/Total2'
-import Graph from './Component/Graph/Graph'
+//import Graph from './Component/Graph/Graph'
+import GraphContainer from './Component/Graph/GraphContainer'
 import Progress from './Component/Progress/Progress'
+import ProgressContainer from './Component/Progress/ProgressContainer'
 import PieChart from './Component/PieChart/PieChart'
 import {Grow, Grid } from '@material-ui/core'
 import './style.css'
@@ -49,14 +51,14 @@ const App = () => {
                     <Total />
                 </Grid>
                 <Grid item md={6}>
-                    <Graph />
+                    <GraphContainer />
                 </Grid>
                 <Grid item md={3}>
-                   <Progress/>
+                   <ProgressContainer />
                 </Grid>
-                <Grid item md={3}>
+                {/* <Grid item md={3}>
                    <PieChart/>
-                </Grid>
+                </Grid> */}
                 
             </Grid>
             </div>
