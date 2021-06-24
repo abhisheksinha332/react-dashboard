@@ -12,21 +12,21 @@ const BorderLinearProgress = makeStyles(theme => ({
   },
   bar: {
     borderRadius: 5,
-    backgroundColor: 'rgb(241, 235, 235);'
+    backgroundColor: 'antiquewhite'
   }
 }))
 
-const Progress = (props) => {
-  const classes1 = BorderLinearProgress()
+const Progress3 = (props) => {
+  const classes = BorderLinearProgress()
 
   const {value} = props
 
   return (
     <div>
       <LinearProgress
-        classes={classes1}
+        classes={classes}
         variant="determinate"
-        value={value || 60}
+        value={value || 20}
       />
       
       
@@ -35,4 +35,4 @@ const Progress = (props) => {
 }
 
 
-export default Progress
+export default Progress3
