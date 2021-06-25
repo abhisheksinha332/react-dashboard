@@ -3,6 +3,7 @@
   height: 394px;
   padding: 10px;
   border-radius: 10px;
+  border: 2px solid rgb(44, 44, 44);
 }
 .word{
   color: white;

@@ -73,10 +73,14 @@
 
 .sidebar{
     margin-right: 10px;
-    position: sticky;
+    position: fixed;
     top: 0;
 
     
+}
+.gridd{
+    margin-left: 5vw;
+    padding-left: 7vw;
 }
 .main-content{
     background-color: black;

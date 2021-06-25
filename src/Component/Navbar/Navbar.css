@@ -1,20 +1,57 @@
-*{
-    /* background-color: black; */
-    
-}
+
 .container{
     display: flex;
     width: 100%;
     color: white;
-    height: 25px;
+    height: 100px;
+    justify-content: flex-end;
 }
 .navbar_left{
     /* display: flex;
     justify-content: flex-start; */
-    width: 50%;
+    width: 80%;
+    font-weight: 800;
+    padding-left: 65px;
 }
 .navbar_right{
     display: flex;
     justify-content: flex-end;
-    width: 50%;
+   width: 50%;
+    align-items: center;
+}
+#standard-basic{
+    color: white;
+}
+.add{
+    font-weight: 900;
+}
+.tr{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 700;
+}
+.tri{
+    margin-right: 25px;
+    padding-right: 20px;
+}
+.col{
+    color: blue;
+}
+.john{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.john1{
+    display: flex;
+    align-items: center;
+    width:220%;
+    justify-content: flex-start;
+}
+.search{
+    margin-top: 7px;
+    padding-right: 35px;
+}
+.buttn{
+    margin-right: 12px;
 }
