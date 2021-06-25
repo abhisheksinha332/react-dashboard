@@ -17,14 +17,14 @@ const ProgressContainer = () => {
         </div>
         <div className="cont1">
             <Grid container>
-                <Grid item xs={5}>
+                <Grid item sm={5}>
                     <div className="prog1">
                         <FiberManualRecordIcon/>
                         <span>Application</span>
                     </div>
                 </Grid>
                 
-                <Grid item xs={7}>
+                <Grid item sm={7}>
                 <Progress/>
                 </Grid>
 

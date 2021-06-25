@@ -9,6 +9,7 @@ import Total from './Component/Total2/Total2'
 import GraphContainer from './Component/Graph/GraphContainer'
 import Progress from './Component/Progress/Progress'
 import ProgressContainer from './Component/Progress/ProgressContainer'
+import StatContainer from './Component/Stats/StatContainer'
 import PieChart from './Component/PieChart/PieChart'
 import {Grow, Grid } from '@material-ui/core'
 import './style.css'
@@ -62,7 +63,7 @@ const App = () => {
                 
             </Grid>
             </div>
-            
+            <StatContainer/>
         </div>
     )
 }
