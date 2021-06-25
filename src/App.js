@@ -5,6 +5,7 @@ import Sidebar from './Component/Sidebar/Sidebar'
 import TotalApplication from './Component/Total1/TotalApplication'
 import Shortlisted from './Component/Shortlisted/Shortlisted'
 import Total from './Component/Total2/Total2'
+import PieContainer from './Component/PieChart/PieContainer'
 //import Graph from './Component/Graph/Graph'
 import GraphContainer from './Component/Graph/GraphContainer'
 import Progress from './Component/Progress/Progress'
@@ -26,44 +27,53 @@ const App = () => {
 
 
     return (
-        <div>
+        <div className="main-content">
             <div className="container1">
-        <div className="sidebar">
-        <Sidebar />
-        </div>
-           
-        <Grid container spacing={2}  className="nav" >
-                <Grid item md={12} > 
-                    <Navbar />
-                </Grid>
-                
-                <Grid item md={6} className="main" >
-                    <Grid container spacing={2}>
-                        <Grid item md={6}>
-                            <TotalApplication />
-                        </Grid>
-                        <Grid item md={6}>
-                            <Shortlisted />
-                        </Grid>
+                <div className="sidebar">
+                    <Sidebar />
+                </div>   
+                <Grid container spacing={2}  className="nav" >
+                    <Grid item md={12} > 
+                        <Navbar />
                     </Grid>
-                    
+                    <Grid item md={6} className="main" >
+                        <Grid container spacing={2}>
+                            <Grid item md={6}>
+                                <TotalApplication />
+                            </Grid>
+                            <Grid item md={6}>
+                                <Shortlisted />
+                            </Grid>
+                        </Grid>    
+                    </Grid>
+                    <Grid item md={3}>
+                        <Total />
+                    </Grid>
+                    <Grid item md={6}>
+                        <GraphContainer />
+                    </Grid>
+                    <Grid item md={3}>
+                        <ProgressContainer />
+                    </Grid>
+                    <Grid item md={6}>
+                    <StatContainer/>
+                    </Grid>
+                    <Grid item md={3}>
+                    <PieContainer/>
+                    </Grid>
                 </Grid>
-                <Grid item md={3}>
-                    <Total />
-                </Grid>
-                <Grid item md={6}>
-                    <GraphContainer />
-                </Grid>
-                <Grid item md={3}>
-                   <ProgressContainer />
-                </Grid>
-                {/* <Grid item md={3}>
-                   <PieChart/>
-                </Grid> */}
-                
-            </Grid>
             </div>
-            <StatContainer/>
+            {/* <div>
+                <Grid container spacing={2}>
+                    <Grid item md={6}>
+                    <StatContainer/>
+                    </Grid>
+                    <Grid item md={3}>
+                    <PieContainer/>
+                    </Grid>
+                </Grid>
+            </div> */}
+            
         </div>
     )
 }

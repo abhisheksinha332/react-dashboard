@@ -1,0 +1,28 @@
+.pie-container{
+    background-color: black;
+    height: 330px;
+    border-radius: 10px;
+}
+.chart-pie{
+    height: 245px;
+    width: 245px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    padding-left: 65px;
+}
+.text-area{
+    display: flex;
+    justify-content: space-between;
+}
+.pie-text{
+    color: white;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.ic{
+    color: white;
+    padding-top: 35px;
+    padding-right: 25px;
+}

@@ -5,8 +5,9 @@
 }
 .container-s{
     max-width: 4vw;
-    height: 100vh;
+    height: 160vh;
     border-right: 1px solid white;
     margin-right: 5px;
     background-color: rgb(37, 37, 37);
+    
 }

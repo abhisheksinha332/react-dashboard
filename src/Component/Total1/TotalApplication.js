@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, StylesProvider, Typography} from '@material-ui/core'
+import {Card, Typography} from '@material-ui/core'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import CircularProgress from '@material-ui/core/CircularProgress';

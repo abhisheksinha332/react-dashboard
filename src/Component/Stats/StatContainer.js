@@ -4,6 +4,7 @@ import Stat2 from './component/Stat2'
 import Stat3 from './component/Stat3'
 import Stat4 from './component/Stat4'
 import { Grid,Button } from '@material-ui/core'
+import TelegramIcon from '@material-ui/icons/Telegram';
 import './Stat.css'
 const StatContainer = () => {
     return (
@@ -14,7 +15,7 @@ const StatContainer = () => {
           </div>
           <div className="ri">
               <div className="red">
-                  40 Campaigns sent in total
+                 <TelegramIcon/> 40 Campaigns sent in total
               </div>
               <div className="te">
                   4 Campaigns in last month
@@ -39,14 +40,18 @@ const StatContainer = () => {
            <div className="button">
                <Grid container>
                    <Grid item md={6}>
-                   <Button variant="contained" color="primary">
+                       <div className="btn1">
+                   <Button variant="contained" color="primary" className="butn">
                         Start a new Campaign now
                     </Button>
+                    </div>
                    </Grid>
                    <Grid item md={6}>
-                   <Button variant="contained" color="secondary">
+                       <div className="btn1">
+                   <Button variant="contained" color="secondary" className="butn">
                         Pause all Running Campaigns 
                     </Button>
+                    </div>
                    </Grid>
                </Grid>
            </div>

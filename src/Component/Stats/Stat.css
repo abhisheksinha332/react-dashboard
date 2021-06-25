@@ -21,9 +21,10 @@
     
 }
 .paper{
-    background: black;
-    border: 10px solid blue;
-
+    
+    border: 1.5px solid rgba(39, 39, 39,0.3);
+    background-color:black;
+    border-radius: 3px;
 }
 .digit{
     font-size: 32px;
@@ -44,10 +45,15 @@
 }
 .mains{
     background-color: black;
+    padding-top: 35px;
+    border-radius:7px;
+    padding: 8px;
 }
 .red{
     color:crimson;
     font-weight: 800;
+    display: flex;
+    justify-content: space-between;
 }
 .te{
     color: white;
@@ -56,4 +62,21 @@
 .le{
     color: white;
     font-weight: 800;
+}
+.button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.butn{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    height: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.btn1{
+    display: flex;
+    justify-content: center;
 }

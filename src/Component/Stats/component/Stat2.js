@@ -5,7 +5,7 @@ import '../Stat.css'
 const Stat2 = () => {
     return (
         <div className="containerss">
-            <Paper className="paper">
+            <div className="paper">
                 <div className="header">
                     Referals
                 </div>
@@ -15,7 +15,7 @@ const Stat2 = () => {
                 <div className="digit">
                     0662
                 </div>
-            </Paper>
+            </div>
         </div>
     )
 }
