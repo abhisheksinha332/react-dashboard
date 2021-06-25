@@ -8,6 +8,7 @@
     font-weight: 700;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 0;
 }
 .info-component{
     margin-top: 15px;
@@ -18,3 +19,67 @@
     height: 200px;
     width: 230px;
 }
+.titles{
+    display: flex;
+    justify-content: space-between;
+    padding:45px 10px 15px 10px;
+    
+
+}
+.name-container{
+    background-color: rgb(20, 20, 20);
+    border-radius: 25px 25px 0px 0px ;
+   
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 12x;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px 5px 10px;
+}
+.names-last{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 12x;
+    align-items: center;
+    margin-top: 20px;
+    
+    padding: 10px 10px 25px 10px;
+}
+.right-sides{
+    display: flex;
+}
+.namess{
+    display: block;
+}
+.sub-text{
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+.icons{
+    padding-right: 7px;
+}
+.bl{
+    color: blue;
+}
+.body-name{
+    font-weight: 600;
+}
+.right-sides{
+    display: flex;
+}
+.msg{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.call{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
